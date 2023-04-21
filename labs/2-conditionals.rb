@@ -20,13 +20,58 @@
 # if dinner == "tacos" && dessert == "ice cream"
 
 # 1. set the first die and write it to the screen
-die1 = rand(1..6)
-puts die1
+# die1 = rand(1..6)
+# puts die1
 
-# 2. set the second die and write it to the screen
-die2 = rand(1..6)
-puts die2
+# # 2. set the second die and write it to the screen
+# die2 = rand(1..6)
+# puts die2
 
 # 3. create a variable for the total and write it to the screen
-total = die1 + die2
-puts "The total is: #{total}"
+# total = die1 + die2
+# puts "The total is: #{total}"
+
+
+
+
+# Booleans
+# this_is_true = true
+# this_is_false = false
+
+# number= 5
+# puts number >2
+# puts number >16
+
+
+# Not equal to 5
+# puts number != 5
+
+# if 3 == 2
+# puts "this is wrong!"
+#     This will not work
+
+# if 3 > 2
+#     puts "yes it is"
+# end
+
+# Password exercise
+# user_entered_password = "tacos"
+# real_password = "awesome"
+
+# if user_entered_password == real_password
+#     puts "you are in"
+# else
+#     puts "get out"
+# end
+
+
+my_score = 67
+passing = 60
+
+if my_score > passing
+    puts "you passed"
+elsif my_score == passing
+puts "just passed"
+else
+    puts "failed"
+end

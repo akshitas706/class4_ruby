@@ -9,7 +9,7 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
-
+puts "This is how we roll"
 Roll1= rand(1...6)
 Roll2= rand(1...6)
 puts Roll1
