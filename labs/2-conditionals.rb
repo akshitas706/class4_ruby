@@ -35,7 +35,7 @@ if total == 7 || total ==11
     puts "YOU WIN!"
 elsif total == 2 || total == 3 || total == 12
     puts "you lose :("
-else puts "point is #{total}"
+else puts "point is #{total}, better luck next time"
 end
 
 
