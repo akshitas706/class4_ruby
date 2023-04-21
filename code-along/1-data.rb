@@ -20,14 +20,37 @@
 # Strings
 
 # puts "Tacos " + "are awesome"
-puts "tacos " +223
+
+# Following will throw an error
+# puts "tacos " + 223
 
 # Combine strings together
 
-puts "tacos " *3
+# puts "tacos " *3
+
+
 
 # Variables
 
+# Declare a variable's value
+# food = "tacos"
+# puts food
+
+# x=4
+# y=7
+# puts x + y
+
+# Last value will be picked
+# x=5
+# y=8
+# x=2
+# puts x + y
+
 # Combine strings and variables
 
+# x=5
+# puts "#{x} tacos"
+
 # String manipulation
+
+puts "computers are hard".reverse
